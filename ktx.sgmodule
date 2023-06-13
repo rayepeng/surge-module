@@ -5,4 +5,4 @@
 hostname =  %APPEND% open3.vistastory.com:443,oss.vistastory.com:443
 
 [Script]
-ktx = type=http-response,pattern=https:\/\/open3\.vistastory\.com\/v3\/api\/article\/article_detail2.*$,requires-body=1,script-path=https://fastly.jsdelivr.net/gh/rayepeng/surge-module/ktx.js
+ktx = type=http-response,pattern=https:\/\/open3\.vistastory\.com\/v3\/api\/article\/article_detail2.*$,requires-body=1,script-path=https://github.com/rayepeng/surge-module/raw/main/ktx.js,debug=1
