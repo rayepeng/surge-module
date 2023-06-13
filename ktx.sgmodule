@@ -2,7 +2,7 @@
 #!desc=破解看天下会员文章
 
 [MITM]
-hostname =  %APPEND% *.open3.vistastory.com, *.oss.vistastory.com
+hostname =  %APPEND% open3.vistastory.com, oss.vistastory.com
 
 [Script]
 ktx = type=http-response,pattern=https:\/\/open3\.vistastory\.com\/v3\/api\/article\/article_detail2.*,requires-body=1,script-path=https://fastly.jsdelivr.net/gh/rayepeng/surge-module/ktx.js,max-size=0,debug=1
