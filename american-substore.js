@@ -1,5 +1,6 @@
 function filter(proxies, targetPlatform) {
 	return proxies.map(p => {
-		return p.name.indexOf("美国") !== -1;
+		// 判断是否有美国或者US
+		return (p.name.indexOf("美国") !== -1) || (p.name.indexOf("US") !== -1);
 	});
 }
