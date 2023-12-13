@@ -5,4 +5,4 @@
 hostname =  %APPEND% caixin.com 
 
 [Script]
-caixin = type=http-response,pattern=http(s?):\/\/ipadcms\.caixin\.com\/tmp\/articles.*$,requires-body=1,script-path=https://fastly.jsdelivr.net/gh/rayepeng/surge-module/caixin.js
+caixin = type=http-response,pattern=http(s?):\/\/ipadcms\.caixin\.com\/tmp\/articles.*$,requires-body=1,script-path=https://github.com/rayepeng/surge-module/raw/main/caixin.js
